@@ -1,0 +1,11 @@
+:root {
+    --main-bg-color: white;
+    --bg-green: green;
+    --bg-red: red;
+    --bg--black: black;
+    --text-size-box: 30px;
+}
+
+main {
+    background-color: var(--main-bg-color)
+}
