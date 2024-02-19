@@ -26,14 +26,25 @@ body {
     height: 20vh;
 }
 
-img {
-    border-radius: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2vh;
+#foto-perfil {
+    width: 40vh;
+    height: auto;
+    border-radius: 2vh;
 }
 
+.container-projeto-grade {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-projeto {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.foto-projeto {
+    width: 50vh;
+    border-radius: 2vh;
+}
 
 
 .menu-home {
@@ -41,6 +52,7 @@ img {
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
+
 }
 
 li {

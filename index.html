@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Lima -HOME</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="menu-home">
-            <img id="banner" src="logo.jpg" alt="">
-            <!--<h1>Minha Pagina Pessoal</h1>-->
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="https://www.instagram.com/leonardolimaof/" target="_blank">INSTAGRAM</a></li>
-                <li><a href="https://www.linkedin.com/in/leonardo-lima-525b32209/" target="_blank">LINKEDIN</a></li>
-                <li><a href="/projetos.html">Projetos</a></li>   
-            </ul>
-        </div>
-        
+    <header>   
+            <nav>
+                <div class="menu-home">
+                    <img id="banner" src="logo.jpg" alt="">
+            
+                    <!--<h1>Minha Pagina Pessoal</h1>-->
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="https://www.instagram.com/leonardolimaof/" target="_blank">INSTAGRAM</a></li>
+                        <li><a href="https://www.linkedin.com/in/leonardo-lima-525b32209/" target="_blank">LINKEDIN</a></li>
+                        <li><a href="/projetos.html">PROJETOS</a></li>   
+                    </ul>
+                </div>
+            </nav>
         <hr>
 
     
@@ -26,7 +29,7 @@
     <h2>Um pouco sobre mim!</h2>
     
     <div class="body-true">
-        <img src="foto.png" alt="minha foto" height="300vh" width="300vh">
+        <img src="foto.png" alt="minha foto" id="foto-perfil">
         <div class="container">
             
             <hr>
@@ -68,7 +71,7 @@
             </div>
         </div>
 
-                <form action="Salvar.html">
+                <form id="myForm">
                     <fieldset class="info">
                             <legend id="sub-name">Te chamarei em breve!</legend>
                             <input type="name" placeholder="Nome Completo" name="name" id="name">
